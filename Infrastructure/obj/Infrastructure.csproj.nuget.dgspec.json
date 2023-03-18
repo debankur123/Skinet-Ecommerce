@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Skinet\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Skinet-Ecomm\\Skinet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Skinet\\Core\\Core.csproj": {
+    "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\Skinet\\Core\\Core.csproj",
+        "projectPath": "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\Core\\obj\\",
+        "outputPath": "D:\\Skinet-Ecomm\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "E:\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Skinet-Ecomm\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Skinet-Ecomm\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Skinet-Ecomm\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Skinet\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Skinet-Ecomm\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "E:\\Skinet\\Core\\Core.csproj"
+              "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj": {
+                "projectPath": "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj"
               }
             }
           }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Skinet\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "E:\\Skinet\\Core\\Core.csproj",
+      "projectPath": "D:\\Skinet-Ecomm\\Skinet\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\Skinet\\Core\\obj\\",
+      "outputPath": "D:\\Skinet-Ecomm\\Skinet\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

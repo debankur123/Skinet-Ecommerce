@@ -10,3 +10,15 @@ E:\Skinet\Core\obj\Debug\net7.0\Core.dll
 E:\Skinet\Core\obj\Debug\net7.0\refint\Core.dll
 E:\Skinet\Core\obj\Debug\net7.0\Core.pdb
 E:\Skinet\Core\obj\Debug\net7.0\ref\Core.dll
+D:\Skinet-Ecomm\Skinet\Core\bin\Debug\net7.0\Core.deps.json
+D:\Skinet-Ecomm\Skinet\Core\bin\Debug\net7.0\Core.dll
+D:\Skinet-Ecomm\Skinet\Core\bin\Debug\net7.0\Core.pdb
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.dll
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\refint\Core.dll
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\Core.pdb
+D:\Skinet-Ecomm\Skinet\Core\obj\Debug\net7.0\ref\Core.dll
