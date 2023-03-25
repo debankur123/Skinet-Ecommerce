@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,19 +20,21 @@ namespace API.Controllers
         private readonly IGenericRepository<ProductType> _productTypeRepo;
        
        // Defining Constructor of the mentioned repository class.
-       public ProductsController(IGenericRepository<Product> productRepo,IGenericRepository<ProductBrand> productBrandRepo,IGenericRepository<ProductType> productTypeRepo){
+        public ProductsController(IGenericRepository<Product> productRepo,IGenericRepository<ProductBrand> productBrandRepo,IGenericRepository<ProductType> productTypeRepo){
             _productRepo = productRepo;
             _productBrandRepo = productBrandRepo;
             _productTypeRepo = productTypeRepo;
        }
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts(){
-            var prods = await _productRepo.ListAllAsync();;
+            var spec = new ProductsWithTypesAndBrandsSpecifications();
+            var prods = await _productRepo.ListAsync(spec);
             return Ok(prods);
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id){
-            return await _productRepo.GetByIdAsync(id);
+            var spec  = new ProductsWithTypesAndBrandsSpecifications(id);
+            return await _productRepo.GetEntityWithSpec(spec);
         }
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrand(){
